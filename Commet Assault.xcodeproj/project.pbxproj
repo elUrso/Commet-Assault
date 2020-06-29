@@ -8,25 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		256A5D1A2423F94200177577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D192423F94200177577 /* AppDelegate.swift */; };
-		256A5D1C2423F94200177577 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D1B2423F94200177577 /* GameScene.sks */; };
-		256A5D1E2423F94200177577 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D1D2423F94200177577 /* Actions.sks */; };
-		256A5D202423F94200177577 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D1F2423F94200177577 /* GameScene.swift */; };
 		256A5D222423F94200177577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D212423F94200177577 /* ViewController.swift */; };
 		256A5D242423F94400177577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D232423F94400177577 /* Assets.xcassets */; };
 		256A5D272423F94400177577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D252423F94400177577 /* Main.storyboard */; };
+		256A5D312423F99500177577 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D302423F99500177577 /* GameController.swift */; };
+		256A5D332423F9BE00177577 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D322423F9BE00177577 /* GameScene.swift */; };
+		256A5D382423FCA300177577 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D352423FCA300177577 /* Ship.png */; };
+		256A5D392423FCA300177577 /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D362423FCA300177577 /* Ship@2x.png */; };
+		256A5D3A2423FCA300177577 /* Ship@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256A5D372423FCA300177577 /* Ship@3x.png */; };
+		256A5D3D2423FD0900177577 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D3C2423FD0900177577 /* Ship.swift */; };
+		256A5D3F2424000E00177577 /* DebugViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D3E2424000E00177577 /* DebugViewport.swift */; };
+		256A5D412424033000177577 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A5D402424033000177577 /* Joystick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		256A5D162423F94200177577 /* Commet Assault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Commet Assault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		256A5D192423F94200177577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		256A5D1B2423F94200177577 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		256A5D1D2423F94200177577 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		256A5D1F2423F94200177577 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		256A5D212423F94200177577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		256A5D232423F94400177577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256A5D262423F94400177577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		256A5D282423F94400177577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		256A5D292423F94400177577 /* Commet_Assault.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Commet_Assault.entitlements; sourceTree = "<group>"; };
+		256A5D302423F99500177577 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		256A5D322423F9BE00177577 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		256A5D352423FCA300177577 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		256A5D362423FCA300177577 /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ship@2x.png"; sourceTree = "<group>"; };
+		256A5D372423FCA300177577 /* Ship@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ship@3x.png"; sourceTree = "<group>"; };
+		256A5D3C2423FD0900177577 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		256A5D3E2424000E00177577 /* DebugViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewport.swift; sourceTree = "<group>"; };
+		256A5D402424033000177577 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,10 @@
 		256A5D182423F94200177577 /* Commet Assault */ = {
 			isa = PBXGroup;
 			children = (
+				256A5D3B2423FCF900177577 /* Entities */,
+				256A5D342423FC3600177577 /* Assets.atlas */,
+				256A5D2F2423F98A00177577 /* Game */,
 				256A5D192423F94200177577 /* AppDelegate.swift */,
-				256A5D1B2423F94200177577 /* GameScene.sks */,
-				256A5D1D2423F94200177577 /* Actions.sks */,
-				256A5D1F2423F94200177577 /* GameScene.swift */,
 				256A5D212423F94200177577 /* ViewController.swift */,
 				256A5D232423F94400177577 /* Assets.xcassets */,
 				256A5D252423F94400177577 /* Main.storyboard */,
@@ -70,6 +80,35 @@
 				256A5D292423F94400177577 /* Commet_Assault.entitlements */,
 			);
 			path = "Commet Assault";
+			sourceTree = "<group>";
+		};
+		256A5D2F2423F98A00177577 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				256A5D302423F99500177577 /* GameController.swift */,
+				256A5D322423F9BE00177577 /* GameScene.swift */,
+				256A5D402424033000177577 /* Joystick.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		256A5D342423FC3600177577 /* Assets.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				256A5D352423FCA300177577 /* Ship.png */,
+				256A5D362423FCA300177577 /* Ship@2x.png */,
+				256A5D372423FCA300177577 /* Ship@3x.png */,
+			);
+			path = Assets.atlas;
+			sourceTree = "<group>";
+		};
+		256A5D3B2423FCF900177577 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				256A5D3C2423FD0900177577 /* Ship.swift */,
+				256A5D3E2424000E00177577 /* DebugViewport.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256A5D1C2423F94200177577 /* GameScene.sks in Resources */,
+				256A5D392423FCA300177577 /* Ship@2x.png in Resources */,
+				256A5D3A2423FCA300177577 /* Ship@3x.png in Resources */,
+				256A5D382423FCA300177577 /* Ship.png in Resources */,
 				256A5D242423F94400177577 /* Assets.xcassets in Resources */,
-				256A5D1E2423F94200177577 /* Actions.sks in Resources */,
 				256A5D272423F94400177577 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256A5D412424033000177577 /* Joystick.swift in Sources */,
 				256A5D222423F94200177577 /* ViewController.swift in Sources */,
-				256A5D202423F94200177577 /* GameScene.swift in Sources */,
+				256A5D3F2424000E00177577 /* DebugViewport.swift in Sources */,
+				256A5D312423F99500177577 /* GameController.swift in Sources */,
+				256A5D332423F9BE00177577 /* GameScene.swift in Sources */,
 				256A5D1A2423F94200177577 /* AppDelegate.swift in Sources */,
+				256A5D3D2423FD0900177577 /* Ship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
